@@ -14,10 +14,7 @@ void DFT(node *root)
   // pre-condiotion
   // vil benytte push, pop som er taget fra uge 5 opgaver og så print_node til at printe noden.
 
-  // Post-condition
-  // forventede resultat bliver 4, 7, 28, 77, 23, 86, 3, 9, 98
-  // kommer af vi print_node for øverste tal og poper det, pusher rchild først, lchild næst, hvis værdieren efter ikke er NULL
-  // ellers printer den node og poper værdien hvor næste værdi i stacken indsættes
+
 
   stack s;
 
